@@ -1,0 +1,14 @@
+.footerContainer {
+    height: 50vh;
+    background-color: rgb(31, 190, 71);
+  }
+  
+  .footer {
+    flex-direction: column;
+  }
+
+  .partImg{
+    
+      display: flex;
+      
+  }

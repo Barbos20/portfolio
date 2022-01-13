@@ -1,0 +1,18 @@
+.contactsContainer {
+  height: 100vh;
+  background-color: rgb(184, 30, 30);
+}
+
+.contacts {
+  flex-direction: column;
+}
+
+.form form{
+  background-color: rebeccapurple;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
