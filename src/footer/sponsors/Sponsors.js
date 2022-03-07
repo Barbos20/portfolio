@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Sponsors.module.css';
+import style from './Sponsors.module.scss';
 
 
 function Sponsors(props) {

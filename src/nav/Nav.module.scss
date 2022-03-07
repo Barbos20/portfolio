@@ -1,11 +1,14 @@
+@import '../common/styles/sass/variables.scss';
+
 .nav {
   width: 300px;
   background-color: rgb(36, 39, 46);
   display: flex;
   justify-content: space-between;
+  
 }
-
 .nav a{
   text-decoration: none;
-  color:antiquewhite;
+  color:$textColor;
 }
+

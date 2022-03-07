@@ -1,0 +1,19 @@
+@import '../common/styles/sass/variables.scss';
+
+.projectsBlock{
+    background-color:$bgColor;
+    flex-wrap: wrap;
+    .projectsContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        .projects{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            }
+    }
+}
+
+
+ 

@@ -1,0 +1,17 @@
+@import '../common/styles/sass/variables.scss';
+
+.mainBlock{
+    height: 100vh;
+    background-color:$bgColor;
+    .text{  
+        font-family: 'Kanit', sans-serif;
+        color:$textColor;
+        font-size: 2rem;
+    }
+    .photo{
+        width:300px;
+    height: 400px;
+    border-radius: 5px;
+    } 
+}
+

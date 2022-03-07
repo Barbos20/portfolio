@@ -1,0 +1,33 @@
+@import '../../common/styles/sass/variables.scss';
+
+.skill{
+    width: 200px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    .icon{
+        height: 60px;
+        width: 60px;
+        background-color:#fff;
+        }
+        .title{
+            font-family: 'Saira Condensed', sans-serif, ;
+            color:$textColor;
+            font-size:25px;
+        }
+        .description{
+            font-family: 'Russo One', sans-serif;
+            color:$textColor;
+            opacity: 0.7;
+            font-size:15px;
+        }
+}
+
+
+
+
+
+
+
+

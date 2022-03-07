@@ -1,0 +1,16 @@
+@import '../../common/styles/sass/variables.scss';
+
+.title{
+    width:100%;
+    font-family: 'Russo One', sans-serif;
+    color:$textColor;
+    font-size:2rem;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+    .title h2{
+        margin:0;
+    }
+}
+
