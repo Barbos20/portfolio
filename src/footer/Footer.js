@@ -7,18 +7,14 @@ function Footer() {
   return (
     <div className={style.footerContainer}>
       <div className={`${styleContainer.container} ${style.footer}`}>
-        <div className={style.info}>
-          PROJECT BY KOROL ARTHUR
-        <div className={style.part}>
-<div className={style.partImg}>
-  <Sponsors title={'im sponsor'}/>
-  <Sponsors title={'im sponsor'}/>
-  <Sponsors title={'im sponsor'}/>
-  <Sponsors title={'im sponsor'}/>
-</div>
+        <div className={style.by}>PROJECT BY KOROL ARTHUR</div>
+        <div className={style.partImg}>
+          <Sponsors title={'im sponsor'} />
+          <Sponsors title={'im sponsor'} />
+          <Sponsors title={'im sponsor'} />
+          <Sponsors title={'im sponsor'} />
         </div>
-        © 2021 ALL RIGHTS RESERVED
-      </div>
+        <div className={style.info}>© 2021 ALL RIGHTS RESERVED</div>
       </div>
     </div>
   );
