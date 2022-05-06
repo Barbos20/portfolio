@@ -9,9 +9,22 @@
         font-size: 2rem;
     }
     .photo{
-        width:300px;
-    height: 400px;
-    border-radius: 5px;
-    } 
+       position: relative;
+       z-index: 1;
+.image{
+    height:400px;
+    width:300px;
+    background-image:url(../assect/img/imgonline-com-ua-Resize-dTmvyO4qlZq.jpg) ;
+    background-size: 100%;
+   @media screen and (max-width:1013px){
+    height:360px;
+    width:260px;
+    transition: .5s;
+    display:flex;
+    align-items: center;
+   }
+   
+}    
+} 
 }
 

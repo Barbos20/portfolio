@@ -1,13 +1,9 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
-import pictures from '../assect/img/IMG_0183.jpg'
 
 
 function Main() {
-  const me ={
-    backgroundImage: `url (${pictures})`
-  }
   return (
     <div className={style.mainBlock}>
       <div className={styleContainer.container}>
@@ -17,8 +13,9 @@ function Main() {
           I am Korol Arthur</h1>
           <h2>Front-end Developer</h2>
         </div>
-        
-        <div className={style.photo}></div>
+        <div className={style.photo}>
+          <div className={style.image}></div>
+        </div>
       </div>
     </div>
   );

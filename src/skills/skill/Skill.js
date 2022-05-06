@@ -1,21 +1,16 @@
 import React from 'react';
-import style from './Skill.module.scss';
+import s from './Skill.module.scss';
 
 
-
-function Skill(props) {
-  return (
-    <div className={style.skill}>
-        <div className={style.icon}>
+const Skill = (props) => {
+    return (
+        <div>
+            <div className={s.skill}>
+                <div style={props.icon} className={s.icon}></div>
+                <h3 className={s.title}>{props.title}</h3>
+                {/*<span className={style.description}>{props.description}</span>*/}
+            </div>
         </div>
-        <div className={style.name}>
-        <h3 className={style.title}>{props.title}</h3>
-            <span className={style.description}>
-                {props.description}
-            </span>
-        </div>
-            
-    </div>
-  );
+    );
 }
 export default Skill;
