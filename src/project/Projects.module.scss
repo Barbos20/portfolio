@@ -1,7 +1,24 @@
 @import '../common/styles/sass/variables.scss';
 
 .projectsBlock{
-    background-color:$bgColor;
+    // background-color:$bgColor;
+    background:linear-gradient(
+      90deg, #3b2a1d,#644a39,#b08f86,#989aab
+    );
+    background-size:400% 400%;
+     animation:animate-background 20s infinite ease-in-out;
+     @keyframes animate-background {
+      0%{
+        background-position: 0 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0 50%;
+      }
+      
+    }
     .projectsContainer{
         display: flex;
         flex-direction: column;
@@ -11,6 +28,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            margin-left:-60px;
             }
             
     }

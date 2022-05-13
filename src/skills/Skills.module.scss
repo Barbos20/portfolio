@@ -1,7 +1,24 @@
 @import '../common/styles/sass/variables.scss';
 
 .skillsBlock{
-    background-color:$bgColor;
+    // background-color:$bgColor;
+    background:linear-gradient(
+      90deg, #3b2a1d,#644a39,#b08f86,#989aab
+    );
+    background-size:400% 400%;
+     animation:animate-background 20s infinite ease-in-out;
+     @keyframes animate-background {
+      0%{
+        background-position: 0 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0 50%;
+      }
+      
+    }
     .skillsContainer{
         flex-direction: column;
         justify-content: flex-start;
@@ -10,6 +27,7 @@
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+            // margin-left:-40px;
             }
     }
 }

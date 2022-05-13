@@ -1,30 +1,87 @@
 @import '../common/styles/sass/variables.scss';
 
-.mainBlock{
-    height: 100vh;
-    background-color:$bgColor;
-    .text{  
-        font-family: 'Kanit', sans-serif;
-        color:$textColor;
-        font-size: 2rem;
+.mainBlock {
+  flex-wrap: wrap;
+  height: 100vh;
+  background:linear-gradient(
+      90deg, #3b2a1d,#644a39,#b08f86,#989aab
+    );
+    background-size:400% 400%;
+     animation:animate-background 20s infinite ease-in-out;
+     @keyframes animate-background {
+      0%{
+        background-position: 0 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0 50%;
+      }
+      
     }
-    .photo{
-       position: relative;
-       z-index: 1;
-.image{
-    height:400px;
-    width:300px;
-    background-image:url(../assect/img/imgonline-com-ua-Resize-dTmvyO4qlZq.jpg) ;
-    background-size: 100%;
-   @media screen and (max-width:1013px){
-    height:360px;
-    width:260px;
-    transition: .5s;
-    display:flex;
-    align-items: center;
-   }
-   
-}    
-} 
-}
 
+  .container {
+    // flex-wrap: wrap;
+    padding: 0 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media screen and (max-width:1000px){
+      display:flex;
+      flex-direction:column;
+      width:80%;
+      transition: 1s;
+     }
+
+   h1 {
+    // flex-wrap: wrap;
+    font-family: 'Kanit', sans-serif;
+    color:$textColorH1;
+    font-size: 3rem;
+    @media screen and (max-width: 1000px) {
+      font-size: 2rem;
+      transition: .5s;
+    }
+    }
+    p{
+      flex-wrap: wrap;
+      font-family: "Saira Condensed", sans-serif;
+    color:$textColorH1;
+    font-size: 2rem;
+    @media screen and (max-width: 1000px) {
+      font-size: 1rem;
+      transition: .5s;
+    }
+    
+    }
+    
+    .photo{
+     margin:0  40px 0  0;
+     @media screen and (max-width: 1000px) {
+      margin:-150px  40px 0  0;
+    }
+
+    .image{
+              height:400px;
+              width:300px;
+              background-image:url(../assect/img/me.jpg) ;
+              background-size: 100%;
+              // flex-wrap: wrap;
+              @media screen and (max-width: 1000px) {
+                height:300px;
+                width:200px;
+                background-size: 100%;
+                transition: 1s;
+              }@media screen and (max-width: 255px) {
+                height:150px;
+                width:100px;
+                background-size: 100%;
+                transition: 1s;
+              }
+              
+      }
+      }
+    }      
+  }
