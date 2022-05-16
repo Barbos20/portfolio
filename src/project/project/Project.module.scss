@@ -1,14 +1,14 @@
 @import '../../common/styles/sass/variables.scss';
 
 .project {
-  width: 200px;
+  width: 380px;
   margin-bottom: 70px;
   display: flex;
   flex-direction: column;
   text-align: left;
   flex-wrap: wrap;
   .projectIcon {
-    height: 120px;
+    height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,19 +20,12 @@
     transition:all .25s;
     &:hover  {
     background-color: black;
-    // border-radius: 20px;
     opacity: 0.9;
     border: none;
     }
-    // .viewBtn {
-    //   background-color: #fff;
-    //   padding: 10px;
-    //   border-radius: 20px;
-    //   opacity: 0.5;
-    // }
+    
     .viewBtn {
       position:relative;
-      // background: none;
       transition: color 200ms;
       text-decoration: none;
       color: #989aab;
@@ -49,7 +42,7 @@
       background-color:#121212;
       opacity: 0.8;
       border-radius: 10px;
-      margin:40px;
+      margin:100px;
       transform-origin: left;
       transform: scaleX(0);
       transition: transform 200ms;

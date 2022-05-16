@@ -5,6 +5,7 @@ import TG from '../assect/img/icons/telegram.svg';
 import Contact from './contact/Contact';
 import gitHub from '../assect/img/icons/github_logo.svg';
 import link from '../assect/img/icons/linkedin.svg';
+import Fade from 'react-reveal/Fade';
 
 
 function Footer() {
@@ -27,17 +28,18 @@ function Footer() {
       },
     ]
     return (
-      <div className={style.footerBlock}>
+      <div id={'info'}className={style.footerBlock}>
+        <Fade bottom cascade>
         <div className={`${styleContainer.container} ${style.footerContainer}`}>
-        
-        <h3 className={style.footer}>© 2022. All rights reserved.</h3>
+        <h3 className={style.footer}>© 2022. All rights reserved.</h3>        
           <span className={style.partImg}>
           {contact.map(c => <Contact key={c.title} 
                                              icon={c.icon}/>
                       )}
-          </span>
+          </span>         
           <p className={style.footer}> KOROL ARTHUR </p>
         </div>
+        </Fade>
       </div>
     );
   }

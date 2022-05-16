@@ -1,33 +1,16 @@
 import React from 'react';
 import style from './Main.module.scss';
+import Fade from 'react-reveal/Fade';
 
-// import styleContainer from '../common/styles/Container.module.css'
 
 
 
 function Main() {
     return (
-
-        // <div className={style.mainBlock}>
-        //   <div className={style.container}>
-        //     <div className={style.greeting} >
-        //     <h1><span> Hi there</span>
-        //     <br/>
-        //       I am Korol Arthur</h1>
-        //       <h2>Front-end Developer</h2>
-        //     </div>
-        //     <div className={style.photo}>
-        //       <div className={style.image}/>
-        //     </div>
-        //   </div>
-        // </div>
-
-
-
-        <div className={style.mainBlock}>
+        <div id={'home'}className={style.mainBlock}>
 
             <div className={style.container}>
-                {/* <div className={style.animated-back}></div> */}
+            <Fade left cascade>
                 <div >
                 <h1>Welcome There!
                     <br />I'm Korol Arthur</h1>
@@ -36,9 +19,12 @@ function Main() {
                 <br />In my spare time, I work on improving 
                 <br />the skills acquired during training.</p>
                 </div>
+                </Fade>
+                <Fade right cascade>
                 <div className={style.photo}>
                     <div className={style.image} />
                 </div>
+                </Fade>
 
 
 

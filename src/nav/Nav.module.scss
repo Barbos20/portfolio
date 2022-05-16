@@ -1,14 +1,23 @@
-@import '../common/styles/sass/variables.scss';
+@import "../common/styles/sass/variables.scss";
 
 .nav {
-  width: 300px;
-  background-color: rgb(36, 39, 46);
+  // flex-wrap: wrap;
+  width: 200px;
   display: flex;
   justify-content: space-between;
-  
-}
-.nav a{
-  text-decoration: none;
-  color:$textColorH1;
+  background:#644a39;
+  padding:20px;
+  border-radius:40px;
+  font-family: "Kanit", sans-serif;
+  color: $textColorH1;
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+  &:hover{
+    text-decoration: none;
+    // color: #b08f86;
+  }
 }
 
+.active{
+  color: #b08f86;
+}

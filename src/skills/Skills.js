@@ -13,6 +13,7 @@ import gitHub from '../assect/img/icons/github_logo.svg';
 import formik from '../assect/img/icons/formik.svg'
 import UI from '../assect/img/icons/material-ui-seeklogo.com.svg'
 import RT from '../assect/img/icons/RT.svg'
+import Fade from 'react-reveal/Fade';
 
 
 function Skills() {
@@ -73,7 +74,8 @@ function Skills() {
     },
   ]
   return (
-    <div className={style.skillsBlock}>
+    <div id={'skills'}className={style.skillsBlock}>
+      <Fade>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Title title={'My skills'} />
         <div className={style.skills}>
@@ -84,6 +86,7 @@ function Skills() {
                     )}
         </div>
       </div>
+      </Fade>
     </div>
   );
 }
