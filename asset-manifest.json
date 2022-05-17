@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a2d89b64.chunk.css",
+    "main.js": "/portfolio/static/js/main.2245652c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2245652c.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.99c64c23.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.99c64c23.js.map",
+    "static/js/2.4d035d5e.chunk.js": "/portfolio/static/js/2.4d035d5e.chunk.js",
+    "static/js/2.4d035d5e.chunk.js.map": "/portfolio/static/js/2.4d035d5e.chunk.js.map",
+    "static/js/3.66b33e90.chunk.js": "/portfolio/static/js/3.66b33e90.chunk.js",
+    "static/js/3.66b33e90.chunk.js.map": "/portfolio/static/js/3.66b33e90.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.a2d89b64.chunk.css.map": "/portfolio/static/css/main.a2d89b64.chunk.css.map",
+    "static/js/2.4d035d5e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4d035d5e.chunk.js.LICENSE.txt",
+    "static/media/DC.b0061e07.webp": "/portfolio/static/media/DC.b0061e07.webp",
+    "static/media/RT.27621e0d.svg": "/portfolio/static/media/RT.27621e0d.svg",
+    "static/media/css-3.74e1faef.svg": "/portfolio/static/media/css-3.74e1faef.svg",
+    "static/media/formik.84d78b56.svg": "/portfolio/static/media/formik.84d78b56.svg",
+    "static/media/github_logo.495344e0.svg": "/portfolio/static/media/github_logo.495344e0.svg",
+    "static/media/html-1.568c78de.svg": "/portfolio/static/media/html-1.568c78de.svg",
+    "static/media/linkedin.e7404a9c.svg": "/portfolio/static/media/linkedin.e7404a9c.svg",
+    "static/media/logo-javascript.d24088fa.svg": "/portfolio/static/media/logo-javascript.d24088fa.svg",
+    "static/media/material-ui-seeklogo.com.01f9eae6.svg": "/portfolio/static/media/material-ui-seeklogo.com.01f9eae6.svg",
+    "static/media/Main.module.scss": "/portfolio/static/media/me.51128ced.jpg",
+    "static/media/open-plan-working.430e15fa.jpg": "/portfolio/static/media/open-plan-working.430e15fa.jpg",
+    "static/media/react-2.6fd2ff17.svg": "/portfolio/static/media/react-2.6fd2ff17.svg",
+    "static/media/redux.be3ada12.svg": "/portfolio/static/media/redux.be3ada12.svg",
+    "static/media/telegram.8c45a8e3.svg": "/portfolio/static/media/telegram.8c45a8e3.svg",
+    "static/media/typescript.2dd37ca8.svg": "/portfolio/static/media/typescript.2dd37ca8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99c64c23.js",
+    "static/js/2.4d035d5e.chunk.js",
+    "static/css/main.a2d89b64.chunk.css",
+    "static/js/main.2245652c.chunk.js"
+  ]
+}
