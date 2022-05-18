@@ -1,7 +1,7 @@
 @import "../common/styles/sass/variables.scss";
 .footerBlock {
   background-color: $bgColor;
-  background: linear-gradient(90deg, #3b2a1d, #644a39, #b08f86, #989aab);
+  background: linear-gradient(90deg, #644a39, #b08f86, #989aab);
   background-size: 400% 400%;
   animation: animate-background 20s infinite ease-in-out;
   @keyframes animate-background {
@@ -38,6 +38,32 @@
       justify-content: space-around;
       flex-wrap: wrap;
       
+      .containerForBlock {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+
+        .block {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          width: 50px;
+          height: 50px;
+
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+      }
     }
   }
 }

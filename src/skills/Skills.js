@@ -12,7 +12,6 @@ import jsLogo from '../assect/img/icons/logo-javascript.svg';
 import gitHub from '../assect/img/icons/github_logo.svg';
 import formik from '../assect/img/icons/formik.svg'
 import UI from '../assect/img/icons/material-ui-seeklogo.com.svg'
-import RT from '../assect/img/icons/RT.svg'
 import Fade from 'react-reveal/Fade';
 
 
@@ -50,11 +49,6 @@ function Skills() {
       title: 'Redux',
       description: 'React is JavaScript library for building user interfaces. Redux is Predictable State Container for JS Apps.',
       icon: iconStyle(reduxLogo)
-    },
-    {
-      title: 'React-Thunk',
-      description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML',
-      icon: iconStyle(RT)
     },
     {
       title: 'Material-UI',

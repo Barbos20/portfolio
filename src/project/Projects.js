@@ -23,10 +23,11 @@ function Projects(props) {
       <Fade>
       <div className={`${styleContainer.container} ${style.projectsContainer}`}>       
         <Title title={'My projects'} />
-        <div className={style.projects}>
-          <Project style={tdl} title={'TodoList'} description={'bla bla bla bla bla bla bla bla bla '} />
-          <Project style={DCmovie} title={'Team project'} description={'bla bla bla bla bla bla bla bla bla bla bla bla '} />
-        </div>        
+        <navbar className={style.projects}>
+          <Project style={tdl} title={'TodoList'} description={'SPA for managing to-do lists and their items. Features: adding / deleting a task, renaming a task, highlighting a completed task, displaying all / active / confirmed tasks in the todo list.'} />
+          <Project style={DCmovie} title={'Cards'} description={'SPA for card training. Features: login page with login and password verification; registration page with data verification; password reset page with password verification; 404 page; profile page with the ability to: edit your profile data (change avatar and nickname), add a new set of cards and edit, search, sort, view, delete and explore card packs; page with a list of decks with the ability to: search, sort, view and study any deck of cards; a tutorial page with the ability to answer a question and rate your answer.'} />
+          {/* <Project style={tdl} title={'In development'} description={'In development'} /> */}
+        </navbar>        
       </div>
       </Fade>
     </div>

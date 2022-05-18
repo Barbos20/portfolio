@@ -3,7 +3,7 @@
 .projectsBlock{
     // background-color:$bgColor;
     background:linear-gradient(
-      90deg, #3b2a1d,#644a39,#b08f86,#989aab
+      90deg,#644a39,#b08f86,#989aab
     );
     background-size:400% 400%;
      animation:animate-background 20s infinite ease-in-out;
@@ -28,7 +28,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin-left:-60px;
+            // margin-left:-40px;
             }
             
     }
