@@ -36,8 +36,8 @@ function Nav() {
           to="info"
           spy={true}
           smooth={true}
-          offset={0}
-          duration={1}
+          offset={1}
+          duration={500}
         >Info</Link>
       </div>
     </Fade>
